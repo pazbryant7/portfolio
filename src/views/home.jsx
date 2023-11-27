@@ -111,18 +111,10 @@ const Main = () => {
             <div className="tokyo_tm_section">
               <div className="container">
                 <TabPanel>
-                  <div data-aos="fade-right" data-aos-duration="1200">
-                    <Home />
-                  </div>
+                  <Home />
                 </TabPanel>
                 <TabPanel>
-                  <div
-                    data-aos="fade-right"
-                    data-aos-duration="1200"
-                    data-aos-delay="100"
-                  >
-                    <About />
-                  </div>
+                  <About />
                 </TabPanel>
                 <TabPanel>
                   <Portfolio />

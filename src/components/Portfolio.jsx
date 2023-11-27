@@ -36,7 +36,6 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-
         <div className="portfolio_filter">
           <Tabs>
             <TabList>
@@ -51,11 +50,7 @@ const Portfolio = () => {
               <TabPanel>
                 <ul className="portfolio_list">
                   {/* branding */}
-                  <li
-                    data-aos="fade-right"
-                    data-aos-duration="1200"
-                    data-aos-delay="100"
-                  >
+                  <li>
                     <div className="inner">
                       <div className="entry tokyo_tm_portfolio_animation_wrap">
                         <img
@@ -80,7 +75,7 @@ const Portfolio = () => {
                     </div>
                   </li>
                   {/* resume */}
-                  <li data-aos="fade-right" data-aos-duration="1200">
+                  <li>
                     <div className="inner">
                       <div className="entry tokyo_tm_portfolio_animation_wrap">
                         <img
@@ -105,7 +100,7 @@ const Portfolio = () => {
                     </div>
                   </li>
                   {/* figma */}
-                  <li data-aos="fade-right" data-aos-duration="1200">
+                  <li>
                     <div className="inner">
                       <div className="entry tokyo_tm_portfolio_animation_wrap">
                         <img
@@ -130,7 +125,7 @@ const Portfolio = () => {
                     </div>
                   </li>
                   {/* freedom */}
-                  <li data-aos="fade-right" data-aos-duration="1200">
+                  <li>
                     <div className="inner">
                       <div className="entry tokyo_tm_portfolio_animation_wrap">
                         <img
@@ -156,7 +151,7 @@ const Portfolio = () => {
                     </div>
                   </li>
                   {/* comfort zone */}
-                  <li data-aos="fade-right" data-aos-duration="1200">
+                  <li>
                     <div className="inner">
                       <div className="entry tokyo_tm_portfolio_animation_wrap">
                         <img
@@ -182,7 +177,7 @@ const Portfolio = () => {
                     </div>
                   </li>
                   {/* pasos seguros */}
-                  <li data-aos="fade-right" data-aos-duration="1200">
+                  <li>
                     <div className="inner">
                       <div className="entry tokyo_tm_portfolio_animation_wrap">
                         <img
@@ -208,7 +203,7 @@ const Portfolio = () => {
                     </div>
                   </li>
                   {/* plans */}
-                  <li data-aos="fade-right" data-aos-duration="1200">
+                  <li>
                     <div className="inner">
                       <div className="entry tokyo_tm_portfolio_animation_wrap">
                         <img
@@ -239,7 +234,7 @@ const Portfolio = () => {
               <TabPanel>
                 <ul className="portfolio_list">
                   {/* freedom */}
-                  <li data-aos="fade-right" data-aos-duration="1200">
+                  <li>
                     <div className="inner">
                       <div className="entry tokyo_tm_portfolio_animation_wrap">
                         <img
@@ -265,7 +260,7 @@ const Portfolio = () => {
                     </div>
                   </li>
                   {/* comfort zone */}
-                  <li data-aos="fade-right" data-aos-duration="1200">
+                  <li>
                     <div className="inner">
                       <div className="entry tokyo_tm_portfolio_animation_wrap">
                         <img
@@ -291,7 +286,7 @@ const Portfolio = () => {
                     </div>
                   </li>
                   {/* pasos seguros */}
-                  <li data-aos="fade-right" data-aos-duration="1200">
+                  <li>
                     <div className="inner">
                       <div className="entry tokyo_tm_portfolio_animation_wrap">
                         <img
@@ -317,7 +312,7 @@ const Portfolio = () => {
                     </div>
                   </li>
                   {/* plans */}
-                  <li data-aos="fade-right" data-aos-duration="1200">
+                  <li>
                     <div className="inner">
                       <div className="entry tokyo_tm_portfolio_animation_wrap">
                         <img
@@ -346,20 +341,16 @@ const Portfolio = () => {
               </TabPanel>
               {/* branding */}
               <TabPanel>
-                <ul className="portfolio_list">
+                <ul className="portfolio_list pswp-gallery" id="my-gallery">
                   {/* branding */}
-                  <li
-                    data-aos="fade-right"
-                    data-aos-duration="1200"
-                    data-aos-delay="100"
-                  >
+                  <li>
                     <div className="inner">
                       <div className="entry tokyo_tm_portfolio_animation_wrap">
                         <img
                           src="assets/img/portfolio/branding.png"
                           alt="Branding"
-                          data-tip
-                          data-for="branding"
+                          data-pswp-width="1875"
+                          data-pswp-height="2500"
                         />
                         <Tooltip
                           id="branding"
@@ -377,14 +368,14 @@ const Portfolio = () => {
                     </div>
                   </li>
                   {/* resume */}
-                  <li data-aos="fade-right" data-aos-duration="1200">
+                  <li>
                     <div className="inner">
                       <div className="entry tokyo_tm_portfolio_animation_wrap">
                         <img
                           src="assets/img/portfolio/resume.png"
                           alt="My resume"
-                          data-tip
-                          data-for="resume"
+                          data-pswp-width="1875"
+                          data-pswp-height="2500"
                         />
                         <Tooltip
                           id="resume"
@@ -407,7 +398,7 @@ const Portfolio = () => {
               <TabPanel>
                 <ul className="portfolio_list">
                   {/* figma */}
-                  <li data-aos="fade-right" data-aos-duration="1200">
+                  <li>
                     <div className="inner">
                       <div className="entry tokyo_tm_portfolio_animation_wrap">
                         <img

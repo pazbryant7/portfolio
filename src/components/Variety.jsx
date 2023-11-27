@@ -23,7 +23,7 @@ const Variety = () => {
           </div>
         </div>
         <ul>
-          <li data-aos="fade-right" data-aos-duration="1200">
+          <li>
             <div className="list_inner">
               <div className="image" onClick={toggleModal}>
                 <img src="assets/img/thumbs/react.png" alt="thumb" />
