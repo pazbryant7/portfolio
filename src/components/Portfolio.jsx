@@ -56,16 +56,10 @@ const Portfolio = () => {
                         <img
                           src="assets/img/portfolio/branding.png"
                           alt="Branding"
-                          data-tip
-                          data-for="branding"
+                          data-tooltip-id="branding"
+                          data-tooltip-float="true"
                         />
-                        <Tooltip
-                          id="branding"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
+                        <Tooltip id="branding" className="tooltip-wrapper">
                           <div>
                             <h5>Personal branding</h5>
                             <span>Branding</span>
@@ -81,16 +75,10 @@ const Portfolio = () => {
                         <img
                           src="assets/img/portfolio/resume.png"
                           alt="My resume"
-                          data-tip
-                          data-for="resume"
+                          data-tooltip-id="resume"
+                          data-tooltip-float="true"
                         />
-                        <Tooltip
-                          id="resume"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
+                        <Tooltip id="resume" className="tooltip-wrapper">
                           <div>
                             <h5>My resume</h5>
                             <span>Branding</span>
@@ -106,16 +94,10 @@ const Portfolio = () => {
                         <img
                           src="assets/img/portfolio/web.png"
                           alt="Figma designs"
-                          data-tip
-                          data-for="figma"
+                          data-tooltip-id="figma"
+                          data-tooltip-float="true"
                         />
-                        <Tooltip
-                          id="figma"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
+                        <Tooltip id="figma" className="tooltip-wrapper">
                           <div>
                             <h5>Figma design</h5>
                             <span>Projects</span>
@@ -131,17 +113,11 @@ const Portfolio = () => {
                         <img
                           src="assets/img/portfolio/freedom.png"
                           alt="cluod storage"
-                          data-tip
-                          data-for="project"
+                          data-tooltip-id="project"
+                          data-tooltip-float="true"
                           onClick={() => setOpen1(true)}
                         />
-                        <Tooltip
-                          id="project"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
+                        <Tooltip id="project" className="tooltip-wrapper">
                           <div>
                             <h5>Freedom</h5>
                             <span>Projects</span>
@@ -157,17 +133,11 @@ const Portfolio = () => {
                         <img
                           src="assets/img/portfolio/house.png"
                           alt="Confort zone"
-                          data-tip
-                          data-for="confort"
+                          data-tooltip-id="confort"
+                          data-tooltip-float="true"
                           onClick={() => setOpen2(true)}
                         />
-                        <Tooltip
-                          id="confort"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
+                        <Tooltip id="confort" className="tooltip-wrapper">
                           <div>
                             <h5>Confort zone</h5>
                             <span>Projects</span>
@@ -183,17 +153,11 @@ const Portfolio = () => {
                         <img
                           src="assets/img/portfolio/pasos.png"
                           alt="Safe steps"
-                          data-tip
-                          data-for="safesteps"
+                          data-tooltip-id="safesteps"
+                          data-tooltip-float="true"
                           onClick={() => setOpen3(true)}
                         />
-                        <Tooltip
-                          id="safesteps"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
+                        <Tooltip id="safesteps" className="tooltip-wrapper">
                           <div>
                             <h5>Safe steps</h5>
                             <span>Projects</span>
@@ -209,17 +173,11 @@ const Portfolio = () => {
                         <img
                           src="assets/img/portfolio/plan.png"
                           alt="cloud storage"
-                          data-tip
-                          data-for="cloudstorage"
+                          data-tooltip-id="cloudstorage"
+                          data-tooltip-float="true"
                           onClick={() => setOpen4(true)}
                         />
-                        <Tooltip
-                          id="cloudstorage"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
+                        <Tooltip id="cloudstorage" className="tooltip-wrapper">
                           <div>
                             <h5>Cloud storage</h5>
                             <span>Projects</span>
@@ -240,17 +198,11 @@ const Portfolio = () => {
                         <img
                           src="assets/img/portfolio/freedom.png"
                           alt="cluod storage"
-                          data-tip
-                          data-for="project"
+                          data-tooltip-id="project"
+                          data-tooltip-float="true"
                           onClick={() => setOpen1(true)}
                         />
-                        <Tooltip
-                          id="project"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
+                        <Tooltip id="project" className="tooltip-wrapper">
                           <div>
                             <h5>Freedom</h5>
                             <span>Projects</span>
@@ -266,17 +218,11 @@ const Portfolio = () => {
                         <img
                           src="assets/img/portfolio/house.png"
                           alt="Confort zone"
-                          data-tip
-                          data-for="confort"
+                          data-tooltip-id="confort"
+                          data-tooltip-float="true"
                           onClick={() => setOpen2(true)}
                         />
-                        <Tooltip
-                          id="confort"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
+                        <Tooltip id="confort" className="tooltip-wrapper">
                           <div>
                             <h5>Confort zone</h5>
                             <span>Projects</span>
@@ -292,17 +238,11 @@ const Portfolio = () => {
                         <img
                           src="assets/img/portfolio/pasos.png"
                           alt="Safe steps"
-                          data-tip
-                          data-for="safesteps"
+                          data-tooltip-id="safesteps"
+                          data-tooltip-float="true"
                           onClick={() => setOpen3(true)}
                         />
-                        <Tooltip
-                          id="safesteps"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
+                        <Tooltip id="safesteps" className="tooltip-wrapper">
                           <div>
                             <h5>Safe steps</h5>
                             <span>Projects</span>
@@ -318,17 +258,11 @@ const Portfolio = () => {
                         <img
                           src="assets/img/portfolio/plan.png"
                           alt="cloud storage"
-                          data-tip
-                          data-for="cloudstorage"
+                          data-tooltip-id="cloudstorage"
+                          data-tooltip-float="true"
                           onClick={() => setOpen4(true)}
                         />
-                        <Tooltip
-                          id="cloudstorage"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
+                        <Tooltip id="cloudstorage" className="tooltip-wrapper">
                           <div>
                             <h5>Cloud storage</h5>
                             <span>Projects</span>
@@ -349,16 +283,10 @@ const Portfolio = () => {
                         <img
                           src="assets/img/portfolio/branding.png"
                           alt="Branding"
-                          data-pswp-width="1875"
-                          data-pswp-height="2500"
+                          data-tooltip-id="branding"
+                          data-tooltip-float="true"
                         />
-                        <Tooltip
-                          id="branding"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
+                        <Tooltip id="branding" className="tooltip-wrapper">
                           <div>
                             <h5>Personal branding</h5>
                             <span>Branding</span>
@@ -374,16 +302,10 @@ const Portfolio = () => {
                         <img
                           src="assets/img/portfolio/resume.png"
                           alt="My resume"
-                          data-pswp-width="1875"
-                          data-pswp-height="2500"
+                          data-tooltip-id="resume"
+                          data-tooltip-float="true"
                         />
-                        <Tooltip
-                          id="resume"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
+                        <Tooltip id="resume" className="tooltip-wrapper">
                           <div>
                             <h5>My resume</h5>
                             <span>Branding</span>
@@ -404,16 +326,10 @@ const Portfolio = () => {
                         <img
                           src="assets/img/portfolio/web.png"
                           alt="Figma designs"
-                          data-tip
-                          data-for="figma"
+                          data-tooltip-id="figma"
+                          data-tooltip-float="true"
                         />
-                        <Tooltip
-                          id="figma"
-                          place="bottom"
-                          type="light"
-                          effect="float"
-                          className="tooltip-wrapper"
-                        >
+                        <Tooltip id="figma" className="tooltip-wrapper">
                           <div>
                             <h5>Figma design</h5>
                             <span>Projects</span>

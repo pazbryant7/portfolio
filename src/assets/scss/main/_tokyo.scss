@@ -1954,7 +1954,8 @@ body.modal {
   h5 {
     margin: 0;
     font-size: 18px;
-    padding: 10px 15px;
+    padding: 10px 15px 5px 15px;
+    padding-bottom: 0px;
     background: #fff;
     letter-spacing: 0.2px;
     font-family: 'Montserrat';
@@ -1962,12 +1963,13 @@ body.modal {
   }
   span {
     font-size: 16px;
-    display: inline-block;
+    color: black;
     font-style: italic;
+    display: block;
     background: #fff;
-    padding: 0 15px 5px;
     position: relative;
-    top: -5px;
+    padding: 0px 15px 0px 15px;
+    padding-bottom: 5px;
   }
 }
 
