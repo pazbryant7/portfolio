@@ -15,7 +15,7 @@ const About = () => {
     <>
       <div className="tokyo_tm_about">
         <div className="about_image ">
-          <img src="assets/img/slider/1.jpg" alt="about" />
+          <img src="assets/img/slider/1.jpg" alt="About" />
         </div>
         <div className="description">
           <h3 className="name">Bryant Paz</h3>
@@ -44,7 +44,7 @@ const About = () => {
                   }}
                   type="button"
                 >
-                  My resume
+                  Download resume
                 </button>
               </div>
               {/* END TOKYO BUTTON */}
