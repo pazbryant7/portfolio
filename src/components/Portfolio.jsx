@@ -20,7 +20,6 @@ const Portfolio = () => {
                             <Tab>All</Tab>
                             <Tab>Projects</Tab>
                             <Tab>Branding</Tab>
-                            <Tab>Variety</Tab>
                         </TabList>
 
                         <div className="list_wrapper">
@@ -31,12 +30,17 @@ const Portfolio = () => {
                                     <li>
                                         <div className="inner">
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
-                                                <img
-                                                    src="assets/img/portfolio/branding.png"
-                                                    alt="Branding"
-                                                    data-tooltip-id="branding"
-                                                    data-tooltip-float="true"
-                                                />
+                                                <a
+                                                    href="https://www.figma.com/file/5cueB8fhPX6sdA5h1BZxG9/portfolio?type=design&node-id=404-22&mode=design&t=TUrIwSeg1vNXq7YV-0"
+                                                    target="_blank"
+                                                >
+                                                    <img
+                                                        src="assets/img/portfolio/branding.png"
+                                                        alt="Branding"
+                                                        data-tooltip-id="branding"
+                                                        data-tooltip-float="true"
+                                                    />
+                                                </a>
                                                 <Tooltip
                                                     id="branding"
                                                     className="tooltip-wrapper"
@@ -55,12 +59,17 @@ const Portfolio = () => {
                                     <li>
                                         <div className="inner">
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
-                                                <img
-                                                    src="assets/img/portfolio/resume.png"
-                                                    alt="My resume"
-                                                    data-tooltip-id="resume"
-                                                    data-tooltip-float="true"
-                                                />
+                                                <a
+                                                    href="https://www.figma.com/file/DoIKrzMHSKeVFbXiAB3T1E/resumes?type=design&node-id=0-1&mode=design&t=jSiCBp7gXgaKp7yf-0"
+                                                    target="_blank"
+                                                >
+                                                    <img
+                                                        src="assets/img/portfolio/resume.png"
+                                                        alt="My resume"
+                                                        data-tooltip-id="resume"
+                                                        data-tooltip-float="true"
+                                                    />
+                                                </a>
                                                 <Tooltip
                                                     id="resume"
                                                     className="tooltip-wrapper"
@@ -73,38 +82,21 @@ const Portfolio = () => {
                                             </div>
                                         </div>
                                     </li>
-                                    {/* figma */}
-                                    <li>
-                                        <div className="inner">
-                                            <div className="entry tokyo_tm_portfolio_animation_wrap">
-                                                <img
-                                                    src="assets/img/portfolio/web.png"
-                                                    alt="Figma designs"
-                                                    data-tooltip-id="figma"
-                                                    data-tooltip-float="true"
-                                                />
-                                                <Tooltip
-                                                    id="figma"
-                                                    className="tooltip-wrapper"
-                                                >
-                                                    <div>
-                                                        <h5>Figma design</h5>
-                                                        <span>Projects</span>
-                                                    </div>
-                                                </Tooltip>
-                                            </div>
-                                        </div>
-                                    </li>
                                     {/* freedom */}
                                     <li>
                                         <div className="inner">
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
-                                                <img
-                                                    src="assets/img/portfolio/freedom.png"
-                                                    alt="cluod storage"
-                                                    data-tooltip-id="project"
-                                                    data-tooltip-float="true"
-                                                />
+                                                <a
+                                                    href="https://www.figma.com/file/5cueB8fhPX6sdA5h1BZxG9/portfolio?type=design&node-id=0-1&mode=design&t=TUrIwSeg1vNXq7YV-0"
+                                                    target="_blank"
+                                                >
+                                                    <img
+                                                        src="assets/img/portfolio/freedom.png"
+                                                        alt="cluod storage"
+                                                        data-tooltip-id="project"
+                                                        data-tooltip-float="true"
+                                                    />
+                                                </a>
                                                 <Tooltip
                                                     id="project"
                                                     className="tooltip-wrapper"
@@ -121,12 +113,17 @@ const Portfolio = () => {
                                     <li>
                                         <div className="inner">
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
-                                                <img
-                                                    src="assets/img/portfolio/house.png"
-                                                    alt="Confort zone"
-                                                    data-tooltip-id="confort"
-                                                    data-tooltip-float="true"
-                                                />
+                                                <a
+                                                    href="https://www.figma.com/file/5cueB8fhPX6sdA5h1BZxG9/portfolio?type=design&node-id=0-1&mode=design&t=TUrIwSeg1vNXq7YV-0"
+                                                    target="_blank"
+                                                >
+                                                    <img
+                                                        src="assets/img/portfolio/house.png"
+                                                        alt="Confort zone"
+                                                        data-tooltip-id="confort"
+                                                        data-tooltip-float="true"
+                                                    />
+                                                </a>
                                                 <Tooltip
                                                     id="confort"
                                                     className="tooltip-wrapper"
@@ -143,12 +140,17 @@ const Portfolio = () => {
                                     <li>
                                         <div className="inner">
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
-                                                <img
-                                                    src="assets/img/portfolio/pasos.png"
-                                                    alt="Safe steps"
-                                                    data-tooltip-id="safesteps"
-                                                    data-tooltip-float="true"
-                                                />
+                                                <a
+                                                    href="https://www.figma.com/file/5cueB8fhPX6sdA5h1BZxG9/portfolio?type=design&node-id=0-1&mode=design&t=TUrIwSeg1vNXq7YV-0"
+                                                    target="_blank"
+                                                >
+                                                    <img
+                                                        src="assets/img/portfolio/pasos.png"
+                                                        alt="Safe steps"
+                                                        data-tooltip-id="safesteps"
+                                                        data-tooltip-float="true"
+                                                    />
+                                                </a>
                                                 <Tooltip
                                                     id="safesteps"
                                                     className="tooltip-wrapper"
@@ -165,12 +167,17 @@ const Portfolio = () => {
                                     <li>
                                         <div className="inner">
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
-                                                <img
-                                                    src="assets/img/portfolio/plan.png"
-                                                    alt="cloud storage"
-                                                    data-tooltip-id="cloudstorage"
-                                                    data-tooltip-float="true"
-                                                />
+                                                <a
+                                                    href="https://www.figma.com/file/5cueB8fhPX6sdA5h1BZxG9/portfolio?type=design&node-id=0-1&mode=design&t=TUrIwSeg1vNXq7YV-0"
+                                                    target="_blank"
+                                                >
+                                                    <img
+                                                        src="assets/img/portfolio/plan.png"
+                                                        alt="cloud storage"
+                                                        data-tooltip-id="cloudstorage"
+                                                        data-tooltip-float="true"
+                                                    />
+                                                </a>
                                                 <Tooltip
                                                     id="cloudstorage"
                                                     className="tooltip-wrapper"
@@ -192,12 +199,17 @@ const Portfolio = () => {
                                     <li>
                                         <div className="inner">
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
-                                                <img
-                                                    src="assets/img/portfolio/freedom.png"
-                                                    alt="cluod storage"
-                                                    data-tooltip-id="project"
-                                                    data-tooltip-float="true"
-                                                />
+                                                <a
+                                                    href="https://www.figma.com/file/5cueB8fhPX6sdA5h1BZxG9/portfolio?type=design&node-id=0-1&mode=design&t=TUrIwSeg1vNXq7YV-0"
+                                                    target="_blank"
+                                                >
+                                                    <img
+                                                        src="assets/img/portfolio/freedom.png"
+                                                        alt="cluod storage"
+                                                        data-tooltip-id="project"
+                                                        data-tooltip-float="true"
+                                                    />
+                                                </a>
                                                 <Tooltip
                                                     id="project"
                                                     className="tooltip-wrapper"
@@ -214,12 +226,17 @@ const Portfolio = () => {
                                     <li>
                                         <div className="inner">
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
-                                                <img
-                                                    src="assets/img/portfolio/house.png"
-                                                    alt="Confort zone"
-                                                    data-tooltip-id="confort"
-                                                    data-tooltip-float="true"
-                                                />
+                                                <a
+                                                    href="https://www.figma.com/file/5cueB8fhPX6sdA5h1BZxG9/portfolio?type=design&node-id=0-1&mode=design&t=TUrIwSeg1vNXq7YV-0"
+                                                    target="_blank"
+                                                >
+                                                    <img
+                                                        src="assets/img/portfolio/house.png"
+                                                        alt="Confort zone"
+                                                        data-tooltip-id="confort"
+                                                        data-tooltip-float="true"
+                                                    />
+                                                </a>
                                                 <Tooltip
                                                     id="confort"
                                                     className="tooltip-wrapper"
@@ -236,12 +253,17 @@ const Portfolio = () => {
                                     <li>
                                         <div className="inner">
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
-                                                <img
-                                                    src="assets/img/portfolio/pasos.png"
-                                                    alt="Safe steps"
-                                                    data-tooltip-id="safesteps"
-                                                    data-tooltip-float="true"
-                                                />
+                                                <a
+                                                    href="https://www.figma.com/file/5cueB8fhPX6sdA5h1BZxG9/portfolio?type=design&node-id=0-1&mode=design&t=TUrIwSeg1vNXq7YV-0"
+                                                    target="_blank"
+                                                >
+                                                    <img
+                                                        src="assets/img/portfolio/pasos.png"
+                                                        alt="Safe steps"
+                                                        data-tooltip-id="safesteps"
+                                                        data-tooltip-float="true"
+                                                    />
+                                                </a>
                                                 <Tooltip
                                                     id="safesteps"
                                                     className="tooltip-wrapper"
@@ -258,12 +280,17 @@ const Portfolio = () => {
                                     <li>
                                         <div className="inner">
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
-                                                <img
-                                                    src="assets/img/portfolio/plan.png"
-                                                    alt="cloud storage"
-                                                    data-tooltip-id="cloudstorage"
-                                                    data-tooltip-float="true"
-                                                />
+                                                <a
+                                                    href="https://www.figma.com/file/5cueB8fhPX6sdA5h1BZxG9/portfolio?type=design&node-id=0-1&mode=design&t=TUrIwSeg1vNXq7YV-0"
+                                                    target="_blank"
+                                                >
+                                                    <img
+                                                        src="assets/img/portfolio/plan.png"
+                                                        alt="cloud storage"
+                                                        data-tooltip-id="cloudstorage"
+                                                        data-tooltip-float="true"
+                                                    />
+                                                </a>
                                                 <Tooltip
                                                     id="cloudstorage"
                                                     className="tooltip-wrapper"
@@ -288,12 +315,17 @@ const Portfolio = () => {
                                     <li>
                                         <div className="inner">
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
-                                                <img
-                                                    src="assets/img/portfolio/branding.png"
-                                                    alt="Branding"
-                                                    data-tooltip-id="branding"
-                                                    data-tooltip-float="true"
-                                                />
+                                                <a
+                                                    href="https://www.figma.com/file/5cueB8fhPX6sdA5h1BZxG9/portfolio?type=design&node-id=404-22&mode=design&t=TUrIwSeg1vNXq7YV-0"
+                                                    target="_blank"
+                                                >
+                                                    <img
+                                                        src="assets/img/portfolio/branding.png"
+                                                        alt="Branding"
+                                                        data-tooltip-id="branding"
+                                                        data-tooltip-float="true"
+                                                    />
+                                                </a>
                                                 <Tooltip
                                                     id="branding"
                                                     className="tooltip-wrapper"
@@ -312,12 +344,17 @@ const Portfolio = () => {
                                     <li>
                                         <div className="inner">
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
-                                                <img
-                                                    src="assets/img/portfolio/resume.png"
-                                                    alt="My resume"
-                                                    data-tooltip-id="resume"
-                                                    data-tooltip-float="true"
-                                                />
+                                                <a
+                                                    href="https://www.figma.com/file/DoIKrzMHSKeVFbXiAB3T1E/resumes?type=design&node-id=0-1&mode=design&t=jSiCBp7gXgaKp7yf-0"
+                                                    target="_blank"
+                                                >
+                                                    <img
+                                                        src="assets/img/portfolio/resume.png"
+                                                        alt="My resume"
+                                                        data-tooltip-id="resume"
+                                                        data-tooltip-float="true"
+                                                    />
+                                                </a>
                                                 <Tooltip
                                                     id="resume"
                                                     className="tooltip-wrapper"
@@ -333,32 +370,6 @@ const Portfolio = () => {
                                 </ul>
                             </TabPanel>
                             {/* variety */}
-                            <TabPanel>
-                                <ul className="portfolio_list">
-                                    {/* figma */}
-                                    <li>
-                                        <div className="inner">
-                                            <div className="entry tokyo_tm_portfolio_animation_wrap">
-                                                <img
-                                                    src="assets/img/portfolio/web.png"
-                                                    alt="Figma designs"
-                                                    data-tooltip-id="figma"
-                                                    data-tooltip-float="true"
-                                                />
-                                                <Tooltip
-                                                    id="figma"
-                                                    className="tooltip-wrapper"
-                                                >
-                                                    <div>
-                                                        <h5>Figma design</h5>
-                                                        <span>Projects</span>
-                                                    </div>
-                                                </Tooltip>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </TabPanel>
                         </div>
                     </Tabs>
                 </div>
