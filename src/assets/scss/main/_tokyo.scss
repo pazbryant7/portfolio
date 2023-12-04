@@ -1042,10 +1042,12 @@ ul.react-tabs__tab-list {
     position: relative;
     overflow: hidden;
     cursor: pointer;
+    display: inline-block;
 }
 .tokyo_tm_news ul li .image img {
-    min-width: 100%;
     opacity: 0;
+    width: 55rem;
+    height: 16rem;
 }
 .tokyo_tm_news ul li .image .main {
     position: absolute;
