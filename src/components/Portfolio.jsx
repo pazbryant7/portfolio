@@ -1,30 +1,8 @@
+import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { Tooltip } from 'react-tooltip';
-import Modal from 'react-modal';
-import React, { useState } from 'react';
 
 const Portfolio = () => {
-    const [isOpen1, setOpen1] = useState(false);
-    const [isOpen2, setOpen2] = useState(false);
-    const [isOpen3, setOpen3] = useState(false);
-    const [isOpen4, setOpen4] = useState(false);
-
-    function toggleModal1() {
-        setOpen1(!isOpen1);
-    }
-
-    function toggleModal2() {
-        setOpen2(!isOpen2);
-    }
-
-    function toggleModal3() {
-        setOpen3(!isOpen3);
-    }
-
-    function toggleModal4() {
-        setOpen4(!isOpen4);
-    }
-
     return (
         <>
             <div className="tokyo_tm_portfolio">
@@ -126,9 +104,6 @@ const Portfolio = () => {
                                                     alt="cluod storage"
                                                     data-tooltip-id="project"
                                                     data-tooltip-float="true"
-                                                    onClick={() =>
-                                                        setOpen1(true)
-                                                    }
                                                 />
                                                 <Tooltip
                                                     id="project"
@@ -151,9 +126,6 @@ const Portfolio = () => {
                                                     alt="Confort zone"
                                                     data-tooltip-id="confort"
                                                     data-tooltip-float="true"
-                                                    onClick={() =>
-                                                        setOpen2(true)
-                                                    }
                                                 />
                                                 <Tooltip
                                                     id="confort"
@@ -176,9 +148,6 @@ const Portfolio = () => {
                                                     alt="Safe steps"
                                                     data-tooltip-id="safesteps"
                                                     data-tooltip-float="true"
-                                                    onClick={() =>
-                                                        setOpen3(true)
-                                                    }
                                                 />
                                                 <Tooltip
                                                     id="safesteps"
@@ -201,9 +170,6 @@ const Portfolio = () => {
                                                     alt="cloud storage"
                                                     data-tooltip-id="cloudstorage"
                                                     data-tooltip-float="true"
-                                                    onClick={() =>
-                                                        setOpen4(true)
-                                                    }
                                                 />
                                                 <Tooltip
                                                     id="cloudstorage"
@@ -231,9 +197,6 @@ const Portfolio = () => {
                                                     alt="cluod storage"
                                                     data-tooltip-id="project"
                                                     data-tooltip-float="true"
-                                                    onClick={() =>
-                                                        setOpen1(true)
-                                                    }
                                                 />
                                                 <Tooltip
                                                     id="project"
@@ -256,9 +219,6 @@ const Portfolio = () => {
                                                     alt="Confort zone"
                                                     data-tooltip-id="confort"
                                                     data-tooltip-float="true"
-                                                    onClick={() =>
-                                                        setOpen2(true)
-                                                    }
                                                 />
                                                 <Tooltip
                                                     id="confort"
@@ -281,9 +241,6 @@ const Portfolio = () => {
                                                     alt="Safe steps"
                                                     data-tooltip-id="safesteps"
                                                     data-tooltip-float="true"
-                                                    onClick={() =>
-                                                        setOpen3(true)
-                                                    }
                                                 />
                                                 <Tooltip
                                                     id="safesteps"
@@ -306,9 +263,6 @@ const Portfolio = () => {
                                                     alt="cloud storage"
                                                     data-tooltip-id="cloudstorage"
                                                     data-tooltip-float="true"
-                                                    onClick={() =>
-                                                        setOpen4(true)
-                                                    }
                                                 />
                                                 <Tooltip
                                                     id="cloudstorage"
@@ -409,163 +363,6 @@ const Portfolio = () => {
                     </Tabs>
                 </div>
             </div>
-
-            <Modal
-                isOpen={isOpen1}
-                onRequestClose={toggleModal1}
-                contentLabel="Freedom"
-                className="mymodal"
-                overlayClassName="myoverlay"
-                closeTimeoutMS={500}
-            >
-                <div className="tokyo_tm_modalbox_news portfolio_tm_modalbox">
-                    <button className="close-modal" onClick={toggleModal1}>
-                        <img src="assets/img/svg/cancel.svg" alt="close icon" />
-                    </button>
-                    <div className="box_inner">
-                        <div className="description_wrap scrollable">
-                            <div className="image">
-                                <img
-                                    src="assets/img/thumbs/4-3.jpg"
-                                    alt="tumb"
-                                />
-                                <div
-                                    className="main"
-                                    style={{
-                                        backgroundImage:
-                                            'url(assets/img/portfolio/natorus-big.png)',
-                                    }}
-                                ></div>
-                            </div>
-                            <div className="portfolio_main_title">
-                                <h3>
-                                    <a href="#">Freedom</a>
-                                </h3>
-                                <span>Details</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </Modal>
-
-            {/* comfort zone */}
-            <Modal
-                isOpen={isOpen2}
-                onRequestClose={toggleModal2}
-                contentLabel="Comfort zone"
-                className="mymodal"
-                overlayClassName="myoverlay"
-                closeTimeoutMS={500}
-            >
-                <div className="tokyo_tm_modalbox_news portfolio_tm_modalbox">
-                    <button className="close-modal" onClick={toggleModal2}>
-                        <img src="assets/img/svg/cancel.svg" alt="close icon" />
-                    </button>
-                    <div className="box_inner">
-                        <div className="description_wrap scrollable">
-                            <div className="image">
-                                <img
-                                    src="assets/img/thumbs/4-3.jpg"
-                                    alt="tumb"
-                                />
-                                <div
-                                    className="main"
-                                    style={{
-                                        backgroundImage:
-                                            'url(assets/img/portfolio/nexter-big.png)',
-                                    }}
-                                ></div>
-                            </div>
-                            <div className="portfolio_main_title">
-                                <h3>
-                                    <a href="#">Comfort zone</a>
-                                </h3>
-                                <span>Details</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </Modal>
-
-            {/* safe steps */}
-            <Modal
-                isOpen={isOpen3}
-                onRequestClose={toggleModal3}
-                contentLabel="Safe steps"
-                className="mymodal"
-                overlayClassName="myoverlay"
-                closeTimeoutMS={500}
-            >
-                <div className="tokyo_tm_modalbox_news portfolio_tm_modalbox">
-                    <button className="close-modal" onClick={toggleModal3}>
-                        <img src="assets/img/svg/cancel.svg" alt="close icon" />
-                    </button>
-                    <div className="box_inner">
-                        <div className="description_wrap scrollable">
-                            <div className="image">
-                                <img
-                                    src="assets/img/thumbs/4-3.jpg"
-                                    alt="tumb"
-                                />
-                                <div
-                                    className="main"
-                                    style={{
-                                        backgroundImage:
-                                            'url(assets/img/portfolio/pasos.png)',
-                                    }}
-                                ></div>
-                            </div>
-                            <div className="portfolio_main_title">
-                                <h3>
-                                    <a href="https://www.youtube.com/watch?v=d9cMyZs2WPg">
-                                        Watch video
-                                    </a>
-                                </h3>
-                                <span>Details</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </Modal>
-
-            {/* cloud storage */}
-            <Modal
-                isOpen={isOpen4}
-                onRequestClose={toggleModal4}
-                contentLabel="Cloud storage"
-                className="mymodal"
-                overlayClassName="myoverlay"
-                closeTimeoutMS={500}
-            >
-                <div className="tokyo_tm_modalbox_news portfolio_tm_modalbox">
-                    <button className="close-modal" onClick={toggleModal4}>
-                        <img src="assets/img/svg/cancel.svg" alt="close icon" />
-                    </button>
-                    <div className="box_inner">
-                        <div className="description_wrap scrollable">
-                            <div className="image">
-                                <img
-                                    src="assets/img/thumbs/freedom-big.png"
-                                    alt="freedom"
-                                />
-                                <div
-                                    className="main"
-                                    style={{
-                                        backgroundImage:
-                                            'url(assets/img/portfolio/freedom-big.png)',
-                                    }}
-                                ></div>
-                            </div>
-                            <div className="portfolio_main_title">
-                                <h3>
-                                    <a href="#">Cloud storage</a>
-                                </h3>
-                                <span>Details</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </Modal>
         </>
     );
 };
