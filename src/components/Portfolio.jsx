@@ -32,7 +32,7 @@ const Portfolio = () => {
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
                                                 <a
                                                     href="https://www.figma.com/file/5cueB8fhPX6sdA5h1BZxG9/portfolio?type=design&node-id=404-22&mode=design&t=TUrIwSeg1vNXq7YV-0"
-                                                    target="_blank"
+                                                    target="_blank" rel="noreferrer"
                                                 >
                                                     <img
                                                         src="assets/img/portfolio/branding.png"
@@ -61,7 +61,7 @@ const Portfolio = () => {
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
                                                 <a
                                                     href="https://www.figma.com/file/DoIKrzMHSKeVFbXiAB3T1E/resumes?type=design&node-id=0-1&mode=design&t=jSiCBp7gXgaKp7yf-0"
-                                                    target="_blank"
+                                                    target="_blank" rel="noreferrer"
                                                 >
                                                     <img
                                                         src="assets/img/portfolio/resume.png"
@@ -88,7 +88,7 @@ const Portfolio = () => {
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
                                                 <a
                                                     href="https://www.figma.com/file/5cueB8fhPX6sdA5h1BZxG9/portfolio?type=design&node-id=0-1&mode=design&t=TUrIwSeg1vNXq7YV-0"
-                                                    target="_blank"
+                                                    target="_blank" rel="noreferrer"
                                                 >
                                                     <img
                                                         src="assets/img/portfolio/freedom.png"
@@ -115,7 +115,7 @@ const Portfolio = () => {
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
                                                 <a
                                                     href="https://www.figma.com/file/5cueB8fhPX6sdA5h1BZxG9/portfolio?type=design&node-id=0-1&mode=design&t=TUrIwSeg1vNXq7YV-0"
-                                                    target="_blank"
+                                                    target="_blank" rel="noreferrer"
                                                 >
                                                     <img
                                                         src="assets/img/portfolio/house.png"
@@ -142,7 +142,7 @@ const Portfolio = () => {
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
                                                 <a
                                                     href="https://www.figma.com/file/5cueB8fhPX6sdA5h1BZxG9/portfolio?type=design&node-id=0-1&mode=design&t=TUrIwSeg1vNXq7YV-0"
-                                                    target="_blank"
+                                                    target="_blank" rel="noreferrer"
                                                 >
                                                     <img
                                                         src="assets/img/portfolio/pasos.png"
@@ -169,7 +169,7 @@ const Portfolio = () => {
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
                                                 <a
                                                     href="https://www.figma.com/file/5cueB8fhPX6sdA5h1BZxG9/portfolio?type=design&node-id=0-1&mode=design&t=TUrIwSeg1vNXq7YV-0"
-                                                    target="_blank"
+                                                    target="_blank" rel="noreferrer"
                                                 >
                                                     <img
                                                         src="assets/img/portfolio/plan.png"
@@ -201,7 +201,7 @@ const Portfolio = () => {
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
                                                 <a
                                                     href="https://www.figma.com/file/5cueB8fhPX6sdA5h1BZxG9/portfolio?type=design&node-id=0-1&mode=design&t=TUrIwSeg1vNXq7YV-0"
-                                                    target="_blank"
+                                                    target="_blank" rel="noreferrer"
                                                 >
                                                     <img
                                                         src="assets/img/portfolio/freedom.png"
@@ -228,7 +228,7 @@ const Portfolio = () => {
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
                                                 <a
                                                     href="https://www.figma.com/file/5cueB8fhPX6sdA5h1BZxG9/portfolio?type=design&node-id=0-1&mode=design&t=TUrIwSeg1vNXq7YV-0"
-                                                    target="_blank"
+                                                    target="_blank" rel="noreferrer"
                                                 >
                                                     <img
                                                         src="assets/img/portfolio/house.png"
@@ -255,7 +255,7 @@ const Portfolio = () => {
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
                                                 <a
                                                     href="https://www.figma.com/file/5cueB8fhPX6sdA5h1BZxG9/portfolio?type=design&node-id=0-1&mode=design&t=TUrIwSeg1vNXq7YV-0"
-                                                    target="_blank"
+                                                    target="_blank" rel="noreferrer"
                                                 >
                                                     <img
                                                         src="assets/img/portfolio/pasos.png"
@@ -282,7 +282,7 @@ const Portfolio = () => {
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
                                                 <a
                                                     href="https://www.figma.com/file/5cueB8fhPX6sdA5h1BZxG9/portfolio?type=design&node-id=0-1&mode=design&t=TUrIwSeg1vNXq7YV-0"
-                                                    target="_blank"
+                                                    target="_blank" rel="noreferrer"
                                                 >
                                                     <img
                                                         src="assets/img/portfolio/plan.png"
@@ -317,7 +317,7 @@ const Portfolio = () => {
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
                                                 <a
                                                     href="https://www.figma.com/file/5cueB8fhPX6sdA5h1BZxG9/portfolio?type=design&node-id=404-22&mode=design&t=TUrIwSeg1vNXq7YV-0"
-                                                    target="_blank"
+                                                    target="_blank" rel="noreferrer"
                                                 >
                                                     <img
                                                         src="assets/img/portfolio/branding.png"
@@ -346,7 +346,7 @@ const Portfolio = () => {
                                             <div className="entry tokyo_tm_portfolio_animation_wrap">
                                                 <a
                                                     href="https://www.figma.com/file/DoIKrzMHSKeVFbXiAB3T1E/resumes?type=design&node-id=0-1&mode=design&t=jSiCBp7gXgaKp7yf-0"
-                                                    target="_blank"
+                                                    target="_blank" rel="noreferrer"
                                                 >
                                                     <img
                                                         src="assets/img/portfolio/resume.png"
