@@ -27,7 +27,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Montserrat';
+    font-family: 'Overpass';
     font-size: 15px;
     line-height: 30px;
     letter-spacing: 0.5px;
@@ -93,7 +93,7 @@ h5,
 h6 {
     font-weight: 500;
     line-height: 1.2;
-    font-family: 'Montserrat';
+    font-family: 'Overpass';
     color: #000;
 }
 
@@ -288,7 +288,7 @@ h6 {
     color: #767676;
     display: inline-block;
     font-weight: 500;
-    font-family: 'Montserrat';
+    font-family: 'Overpass';
     transition: all 0.3s ease;
     cursor: pointer;
     margin-bottom: 10px;
@@ -324,7 +324,7 @@ h6 {
 .tokyo_tm_all_wrap .leftpart .copyright p {
     font-size: 15px;
     color: #999;
-    font-family: 'Montserrat';
+    font-family: 'Overpass';
     line-height: 25px;
     font-style: italic;
 }
@@ -480,7 +480,7 @@ h6 {
     text-transform: uppercase;
 }
 .tokyo_tm_home .details .job {
-    font-family: 'Montserrat';
+    font-family: 'Overpass';
     font-style: italic;
     font-weight: 500;
     max-width: 450px;
@@ -621,7 +621,7 @@ h6 {
     border: none;
     cursor: pointer;
     margin-right: 5px;
-    font-family: 'Montserrat';
+    font-family: 'Overpass';
     &:focus {
         outline: none;
     }
@@ -832,7 +832,7 @@ h6 {
 }
 .tokyo_tm_title h3 {
     font-weight: 800;
-    font-family: 'Montserrat';
+    font-family: 'Overpass';
 }
 .tokyo_tm_title span {
     display: inline-block;
@@ -842,7 +842,7 @@ h6 {
     font-weight: 600;
     font-size: 12px;
     color: #333;
-    font-family: 'Montserrat';
+    font-family: 'Overpass';
     letter-spacing: 0px;
     margin-bottom: 15px;
 }
@@ -864,7 +864,7 @@ h6 {
     color: #767676;
     display: inline-block;
     font-weight: 500;
-    font-family: 'Montserrat';
+    font-family: 'Overpass';
     transition: all 0.3s ease;
     cursor: pointer;
     @media screen and (max-width: 767px) {
@@ -976,7 +976,7 @@ ul.react-tabs__tab-list {
     background: #ffffff;
     font-size: 18px;
     padding: 5px 15px;
-    font-family: 'Montserrat';
+    font-family: 'Overpass';
     font-weight: 600;
     color: #000;
     position: fixed;
@@ -994,7 +994,7 @@ ul.react-tabs__tab-list {
     top: 100%;
     left: 0;
     margin-top: -10px;
-    font-family: 'Montserrat';
+    font-family: 'Overpass';
     font-weight: 500;
     padding: 5px 15px;
     color: #767676;
@@ -1110,7 +1110,7 @@ ul.react-tabs__tab-list {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 12px;
-    font-family: montserrat;
+    font-family: 'Overpass';
     cursor: pointer;
 }
 .tokyo_tm_read_more a:before {
@@ -1178,7 +1178,7 @@ ul.react-tabs__tab-list {
 }
 .tokyo_tm_news ul li .details .date {
     text-transform: capitalize;
-    font-family: 'Montserrat';
+    font-family: 'Overpass';
     font-size: 13px;
     color: #767676;
     font-style: italic;
@@ -1322,7 +1322,7 @@ ul.react-tabs__tab-list {
 }
 .tokyo_tm_modalbox_news .date {
     text-transform: uppercase;
-    font-family: 'Montserrat';
+    font-family: 'Overpass';
     font-size: 12px;
     color: #767676;
     font-style: italic;
@@ -1416,7 +1416,7 @@ body.modal {
     align-items: center;
 }
 .tokyo_tm_modalbox_news .news_share span {
-    font-family: 'Montserrat';
+    font-family: 'Overpass';
     font-weight: 600;
     font-style: italic;
     padding-right: 20px;
@@ -1963,7 +1963,7 @@ body.modal {
         padding-bottom: 0px;
         background: #fff;
         letter-spacing: 0.2px;
-        font-family: 'Montserrat';
+        font-family: 'Overpass';
         font-weight: 600;
     }
     span {
@@ -2154,7 +2154,7 @@ body.modal {
             color: #000;
         }
         span {
-            font-family: 'Montserrat';
+            font-family: 'Overpass';
             font-weight: 500;
             color: #000;
         }
