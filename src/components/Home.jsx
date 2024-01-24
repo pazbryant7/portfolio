@@ -8,9 +8,10 @@ const Home = () => {
                 <div className="home_content">
                     <div className="avatar">
                         <div
-                            className="image avatar_img"
+                            className="image"
                             style={{
-                                backgroundImage: 'url(assets/img/slider/1.jpg)',
+                                backgroundImage:
+                                    'url(assets/img/portfolio/me.jpg)',
                             }}
                         ></div>
                         {/* END AVATAR IMAGE */}

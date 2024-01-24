@@ -15,7 +15,7 @@ const About = () => {
         <>
             <div className="tokyo_tm_about">
                 <div className="about_image ">
-                    <img src="assets/img/slider/1.jpg" alt="About" />
+                    <img src="assets/img/portfolio/about.jpg" alt="About" />
                 </div>
                 <div className="description">
                     <h3 className="name">Bryant Paz</h3>
@@ -46,8 +46,10 @@ const About = () => {
                                     className="ib-button"
                                     onClick={(e) => {
                                         e.preventDefault();
-                                        window.location.href =
-                                            'http://google.com';
+                                        window.open(
+                                            '/assets/pdf/resume.pdf',
+                                            '_blank'
+                                        );
                                     }}
                                     type="button"
                                 >
@@ -296,19 +298,19 @@ const About = () => {
                                     {/* japanese */}
                                     <div
                                         className="progress_inner"
-                                        data-value="20"
+                                        data-value="10"
                                     >
                                         <span>
                                             <span className="label">
                                                 Japanese (current learning)
                                             </span>
-                                            <span className="number">20%</span>
+                                            <span className="number">10%</span>
                                         </span>
                                         <div className="background">
                                             <div className="bar">
                                                 <div
                                                     className="bar_in"
-                                                    style={{ width: 20 + '%' }}
+                                                    style={{ width: 10 + '%' }}
                                                 ></div>
                                             </div>
                                         </div>
@@ -316,19 +318,19 @@ const About = () => {
                                     {/* Portuguese */}
                                     <div
                                         className="progress_inner"
-                                        data-value="20"
+                                        data-value="10"
                                     >
                                         <span>
                                             <span className="label">
                                                 Portuguese (current learning)
                                             </span>
-                                            <span className="number">30%</span>
+                                            <span className="number">10%</span>
                                         </span>
                                         <div className="background">
                                             <div className="bar">
                                                 <div
                                                     className="bar_in"
-                                                    style={{ width: 30 + '%' }}
+                                                    style={{ width: 10 + '%' }}
                                                 ></div>
                                             </div>
                                         </div>
@@ -337,7 +339,7 @@ const About = () => {
                                     {/* Korean */}
                                     <div
                                         className="progress_inner"
-                                        data-value="20"
+                                        data-value="5"
                                     >
                                         <span>
                                             <span className="label">
