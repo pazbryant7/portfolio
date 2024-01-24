@@ -620,7 +620,9 @@ h6 {
     padding: 19px 40px;
     border: none;
     cursor: pointer;
-    margin-right: 5px;
+    margin-right: 0px;
+    width: 100%;
+    margin-top: 5px;
     font-family: 'Overpass';
     &:focus {
         outline: none;
