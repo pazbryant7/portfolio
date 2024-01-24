@@ -18,7 +18,8 @@ const Variety = () => {
                             <a
                                 href="https://github.com/plbryant/dotfiles"
                                 className="image"
-                                target="_blank" rel="noreferrer"
+                                target="_blank"
+                                rel="noreferrer"
                             >
                                 <img
                                     src="assets/img/thumbs/terminal.png"
@@ -53,7 +54,8 @@ const Variety = () => {
                             <a
                                 className="image"
                                 href="https://github.com/plbryant/nvim"
-                                target="_blank" rel="noreferrer"
+                                target="_blank"
+                                rel="noreferrer"
                             >
                                 <img
                                     src="assets/img/thumbs/nvim.png"
