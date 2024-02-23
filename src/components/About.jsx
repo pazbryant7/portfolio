@@ -91,6 +91,11 @@ const About = () => {
                                         <span>Freelance:</span>Not available
                                     </p>
                                 </li>
+                                <li>
+                                    <p>
+                                        <span>Number:</span>+52 9992431998
+                                    </p>
+                                </li>
                             </ul>
                             {/* END UL */}
                         </div>
