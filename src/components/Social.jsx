@@ -4,7 +4,7 @@ const SocialShare = [
     { iconName: 'twitter', link: 'https://twitter.com/plbryantt' },
     {
         iconName: 'instagram',
-        link: 'https://www.instagram.com/pazita117/',
+        link: 'https://www.instagram.com/pazbryant7/',
     },
     {
         iconName: 'github',
