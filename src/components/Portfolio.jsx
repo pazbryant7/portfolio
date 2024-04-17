@@ -9,7 +9,7 @@ const Portfolio = () => {
                 <div className="tokyo_tm_title">
                     <div className="title_flex">
                         <div className="left">
-                            <span>Portfollio</span>
+                            <span>Portfolio</span>
                             <h3>Portfolio</h3>
                         </div>
                     </div>
