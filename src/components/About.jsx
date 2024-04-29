@@ -75,8 +75,8 @@ const About = () => {
                                     <p>
                                         <span>Email:</span>
 
-                                        <a href="mailto:plbryantt@outlook.com">
-                                            plbryantt@outlook.com
+                                        <a href="mailto:bryantpaz7@outlook.com">
+                                            bryantpaz7@outlook.com
                                         </a>
                                     </p>
                                 </li>
