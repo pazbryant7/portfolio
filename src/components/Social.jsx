@@ -8,7 +8,7 @@ const SocialShare = [
     },
     {
         iconName: 'github',
-        link: 'https://github.com/plbryant',
+        link: 'https://github.com/pazbryant',
     },
     {
         iconName: 'linkedin',
