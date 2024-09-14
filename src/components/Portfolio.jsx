@@ -2,6 +2,8 @@ import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { Tooltip } from 'react-tooltip';
 
+var hello = 'hello';
+
 const Portfolio = () => {
     return (
         <>
