@@ -320,47 +320,6 @@ const About = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* Portuguese */}
-                                    <div
-                                        className="progress_inner"
-                                        data-value="10"
-                                    >
-                                        <span>
-                                            <span className="label">
-                                                Portuguese (current learning)
-                                            </span>
-                                            <span className="number">10%</span>
-                                        </span>
-                                        <div className="background">
-                                            <div className="bar">
-                                                <div
-                                                    className="bar_in"
-                                                    style={{ width: 10 + '%' }}
-                                                ></div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    {/* Korean */}
-                                    <div
-                                        className="progress_inner"
-                                        data-value="5"
-                                    >
-                                        <span>
-                                            <span className="label">
-                                                korean (current learning)
-                                            </span>
-                                            <span className="number">5%</span>
-                                        </span>
-                                        <div className="background">
-                                            <div className="bar">
-                                                <div
-                                                    className="bar_in"
-                                                    style={{ width: 5 + '%' }}
-                                                ></div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                                 {/* EDN TOKYO PROGRESS */}
                             </div>
