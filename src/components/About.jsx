@@ -283,7 +283,7 @@ const About = () => {
 
                                     <div
                                         className="progress_inner"
-                                        data-value="60"
+                                        data-value="75"
                                     >
                                         <span>
                                             <span className="label">
@@ -303,13 +303,32 @@ const About = () => {
                                     {/* japanese */}
                                     <div
                                         className="progress_inner"
-                                        data-value="10"
+                                        data-value="5"
                                     >
                                         <span>
                                             <span className="label">
                                                 Japanese (current learning)
                                             </span>
-                                            <span className="number">10%</span>
+                                            <span className="number">5%</span>
+                                        </span>
+                                        <div className="background">
+                                            <div className="bar">
+                                                <div
+                                                    className="bar_in"
+                                                    style={{ width: 5 + '%' }}
+                                                ></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        className="progress_inner"
+                                        data-value="10"
+                                    >
+                                        <span>
+                                            <span className="label">
+                                                Portuguese (current learning)
+                                            </span>
+                                            <span className="number">5%</span>
                                         </span>
                                         <div className="background">
                                             <div className="bar">
