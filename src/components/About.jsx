@@ -150,29 +150,29 @@ const About = () => {
                                 {/* END ABOUT TITLE */}
 
                                 <div className="tokyo_progress">
-                                    {/* javascript */}
+                                    {/* JavaScript */}
                                     <div
                                         className="progress_inner"
-                                        data-value="100"
+                                        data-value="80"
                                     >
                                         <span>
                                             <span className="label">
-                                                Javascript
+                                                JavaScript
                                             </span>
                                         </span>
                                         <div className="background">
                                             <div className="bar">
                                                 <div
                                                     className="bar_in"
-                                                    style={{ width: 100 + '%' }}
+                                                    style={{ width: 80 + '%' }}
                                                 ></div>
                                             </div>
                                         </div>
                                     </div>
-                                    {/* linux */}
+                                    {/* Linux */}
                                     <div
                                         className="progress_inner"
-                                        data-value="100"
+                                        data-value="80"
                                     >
                                         <span>
                                             <span className="label">Linux</span>
@@ -181,7 +181,7 @@ const About = () => {
                                             <div className="bar">
                                                 <div
                                                     className="bar_in"
-                                                    style={{ width: 100 + '%' }}
+                                                    style={{ width: 80 + '%' }}
                                                 ></div>
                                             </div>
                                         </div>
@@ -189,16 +189,16 @@ const About = () => {
                                     {/* node */}
                                     <div
                                         className="progress_inner"
-                                        data-value="100"
+                                        data-value="40"
                                     >
                                         <span>
-                                            <span className="label">Node</span>
+                                            <span className="label">Lua</span>
                                         </span>
                                         <div className="background">
                                             <div className="bar">
                                                 <div
                                                     className="bar_in"
-                                                    style={{ width: 100 + '%' }}
+                                                    style={{ width: 40 + '%' }}
                                                 ></div>
                                             </div>
                                         </div>
@@ -209,7 +209,9 @@ const About = () => {
                                         data-value="50"
                                     >
                                         <span>
-                                            <span className="label">React</span>
+                                            <span className="label">
+                                                Golang
+                                            </span>
                                         </span>
                                         <div className="background">
                                             <div className="bar">
@@ -220,7 +222,7 @@ const About = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* lua */}
+                                    {/* Lua */}
                                     <div
                                         className="progress_inner"
                                         data-value="70"
@@ -240,16 +242,16 @@ const About = () => {
                                     {/* rust */}
                                     <div
                                         className="progress_inner"
-                                        data-value="30"
+                                        data-value="50"
                                     >
                                         <span>
-                                            <span className="label">Rust</span>
+                                            <span className="label">C</span>
                                         </span>
                                         <div className="background">
                                             <div className="bar">
                                                 <div
                                                     className="bar_in"
-                                                    style={{ width: 30 + '%' }}
+                                                    style={{ width: 50 + '%' }}
                                                 ></div>
                                             </div>
                                         </div>
@@ -257,16 +259,18 @@ const About = () => {
                                     {/* go */}
                                     <div
                                         className="progress_inner"
-                                        data-value="10"
+                                        data-value="70"
                                     >
                                         <span>
-                                            <span className="label">Go</span>
+                                            <span className="label">
+                                                Bash/SH
+                                            </span>
                                         </span>
                                         <div className="background">
                                             <div className="bar">
                                                 <div
                                                     className="bar_in"
-                                                    style={{ width: 10 + '%' }}
+                                                    style={{ width: 70 + '%' }}
                                                 ></div>
                                             </div>
                                         </div>
@@ -322,7 +326,7 @@ const About = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* japanese */}
+                                    {/* Japanese */}
                                     <div
                                         className="progress_inner"
                                         data-value="5"
@@ -331,13 +335,13 @@ const About = () => {
                                             <span className="label">
                                                 Japanese (current learning)
                                             </span>
-                                            <span className="number">5%</span>
+                                            <span className="number">10%</span>
                                         </span>
                                         <div className="background">
                                             <div className="bar">
                                                 <div
                                                     className="bar_in"
-                                                    style={{ width: 5 + '%' }}
+                                                    style={{ width: 10 + '%' }}
                                                 ></div>
                                             </div>
                                         </div>
@@ -348,15 +352,15 @@ const About = () => {
                                     >
                                         <span>
                                             <span className="label">
-                                                Portuguese (current learning)
+                                                Portuguese (future)
                                             </span>
-                                            <span className="number">5%</span>
+                                            <span className="number">0%</span>
                                         </span>
                                         <div className="background">
                                             <div className="bar">
                                                 <div
                                                     className="bar_in"
-                                                    style={{ width: 10 + '%' }}
+                                                    style={{ width: 0 + '%' }}
                                                 ></div>
                                             </div>
                                         </div>
