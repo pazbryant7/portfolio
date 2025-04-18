@@ -11,6 +11,29 @@ const About = () => {
         setIsOpen(!isOpen);
     }
 
+    function getMyCurrentAge() {
+        const birthYear = 1998;
+        const birthMonth = 5;
+        const birthDay = 28;
+
+        const today = new Date();
+        const birthDate = new Date(birthYear, birthMonth, birthDay);
+
+        let age = today.getFullYear() - birthDate.getFullYear();
+
+        const monthDifference = today.getMonth() - birthDate.getMonth();
+        const dayDifference = today.getDate() - birthDate.getDate();
+
+        if (
+            monthDifference < 0 ||
+            (monthDifference === 0 && dayDifference < 0)
+        ) {
+            age--;
+        }
+
+        return age;
+    }
+
     return (
         <>
             <div className="tokyo_tm_about">
@@ -22,18 +45,16 @@ const About = () => {
                     <div className="description_inner">
                         <div className="left">
                             <p>
-                                As a software engineer with a strong background
-                                in computer science and a focus on JavaScript, I
-                                have a passion for building interactive and
-                                dynamic web applications. I excel in using
-                                JavaScript, as well as a variety of frameworks
-                                such as React and Node.js, to develop
-                                high-quality software. My attention to detail
-                                and problem-solving skills allow me to
-                                troubleshoot and debug code effectively. I also
-                                have excellent communication skills and enjoy
-                                collaborating with cross-functional teams to
-                                bring projects from concept to launch.
+                                Driven by a background in computer science, I
+                                build quality software using C, Lua, Golang,
+                                JavaScript, and SH/Bash. I am passionate about
+                                Linux and proficient in harnessing the power of
+                                the CLI. Known for attention to detail and
+                                effective problem-solving, I excel at debugging
+                                complex issues. Strong communication and
+                                teamwork skills enable me to contribute
+                                effectively to bringing projects from idea to
+                                reality.
                             </p>
                             <div className="tokyo_tm_button">
                                 <button
@@ -68,7 +89,8 @@ const About = () => {
                                 </li>
                                 <li>
                                     <p>
-                                        <span>Age:</span>24
+                                        <span>Age:</span>
+                                        {getMyCurrentAge()}
                                     </p>
                                 </li>
                                 <li>
