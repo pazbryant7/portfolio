@@ -20,8 +20,8 @@ const Home = () => {
                     <div className="details">
                         <h3 className="name">Bryant Paz</h3>
                         <p className="job">
-                            Web developer | Typescript | Node | React , GraphQL
-                            and Linux enthusiast.
+                            Software Engineer | JavaScript | Lua | C | Golang |
+                            Bash | and Linux enthusiast.
                         </p>
                         {/* END JOB */}
                         <Social />
