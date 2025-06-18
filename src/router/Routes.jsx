@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from '../views/home';
 import NotFound from '../views/NotFound';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 const MainRoutes = () => {
     return (
@@ -9,7 +9,7 @@ const MainRoutes = () => {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route element={<NotFound />} />
+                    <Route path="*" element={<NotFound />} />
                 </Routes>
             </BrowserRouter>
         </>

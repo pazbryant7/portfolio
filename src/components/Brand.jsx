@@ -38,12 +38,6 @@ export default function SimpleSlider() {
                 </li>
                 <li className="item">
                     <img
-                        src="assets/img/partners/javascript.png"
-                        alt="partners brand"
-                    />
-                </li>
-                <li className="item">
-                    <img
                         src="assets/img/partners/mongodb.png"
                         alt="partners brand"
                     />

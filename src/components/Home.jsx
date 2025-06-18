@@ -21,7 +21,7 @@ const Home = () => {
                         <h3 className="name">Bryant Paz</h3>
                         <p className="job">
                             Software Engineer | JavaScript | Lua | C | Golang |
-                            Bash | and Linux enthusiast.
+                            Bash and Linux enthusiast.
                         </p>
                         {/* END JOB */}
                         <Social />

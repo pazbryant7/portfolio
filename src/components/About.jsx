@@ -115,7 +115,7 @@ const About = () => {
                                 </li>
                                 <li>
                                     <p>
-                                        <span>Number:</span>+52 9992431998
+                                        <span>Number:</span>+52 5664544682
                                     </p>
                                 </li>
                             </ul>
@@ -186,31 +186,14 @@ const About = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* node */}
-                                    <div
-                                        className="progress_inner"
-                                        data-value="40"
-                                    >
-                                        <span>
-                                            <span className="label">Lua</span>
-                                        </span>
-                                        <div className="background">
-                                            <div className="bar">
-                                                <div
-                                                    className="bar_in"
-                                                    style={{ width: 40 + '%' }}
-                                                ></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* react */}
+                                    {/* Golang */}
                                     <div
                                         className="progress_inner"
                                         data-value="50"
                                     >
                                         <span>
                                             <span className="label">
-                                                Golang
+                                                Go
                                             </span>
                                         </span>
                                         <div className="background">
@@ -239,10 +222,10 @@ const About = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* rust */}
+                                    {/* C */}
                                     <div
                                         className="progress_inner"
-                                        data-value="50"
+                                        data-value="20"
                                     >
                                         <span>
                                             <span className="label">C</span>
@@ -251,19 +234,19 @@ const About = () => {
                                             <div className="bar">
                                                 <div
                                                     className="bar_in"
-                                                    style={{ width: 50 + '%' }}
+                                                    style={{ width: 20 + '%' }}
                                                 ></div>
                                             </div>
                                         </div>
                                     </div>
-                                    {/* go */}
+                                    {/* Bash */}
                                     <div
                                         className="progress_inner"
                                         data-value="70"
                                     >
                                         <span>
                                             <span className="label">
-                                                Bash/SH
+                                                Bash
                                             </span>
                                         </span>
                                         <div className="background">
@@ -379,19 +362,19 @@ const About = () => {
                             <ul>
                                 <li>
                                     <div className="list_inner">
-                                        <h3>15+</h3>
+                                        <h3>32+</h3>
                                         <span>Projects Completed</span>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="list_inner">
-                                        <h3>120+</h3>
+                                        <h3>110+</h3>
                                         <span>Words per minute</span>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="list_inner">
-                                        <h3>1000+</h3>
+                                        <h3>10000+</h3>
                                         <span>Linux hours</span>
                                     </div>
                                 </li>
