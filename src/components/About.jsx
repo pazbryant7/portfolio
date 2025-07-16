@@ -192,9 +192,7 @@ const About = () => {
                                         data-value="50"
                                     >
                                         <span>
-                                            <span className="label">
-                                                Go
-                                            </span>
+                                            <span className="label">Go</span>
                                         </span>
                                         <div className="background">
                                             <div className="bar">
@@ -245,9 +243,7 @@ const About = () => {
                                         data-value="70"
                                     >
                                         <span>
-                                            <span className="label">
-                                                Bash
-                                            </span>
+                                            <span className="label">Bash</span>
                                         </span>
                                         <div className="background">
                                             <div className="bar">
