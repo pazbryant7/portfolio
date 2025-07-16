@@ -3,7 +3,9 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ command }) => {
     const repoName = 'portfolio';
-    const isProduction = command === 'build';
+    const isProductionBuildOrPreview =
+        command === 'build' || command === 'serve';
+
     return {
         plugins: [react()],
         server: {
@@ -12,6 +14,6 @@ export default defineConfig(({ command }) => {
         preview: {
             port: 8080,
         },
-        base: isProduction ? `/${repoName}/` : '/',
+        base: isProductionBuildOrPreview ? `/${repoName}/` : '/',
     };
 });
