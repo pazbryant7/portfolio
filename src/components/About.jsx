@@ -115,7 +115,7 @@ const About = () => {
                                 </li>
                                 <li>
                                     <p>
-                                        <span>Number:</span>+52 5664544682
+                                        <span>Number:</span>+52 9992669725
                                     </p>
                                 </li>
                             </ul>

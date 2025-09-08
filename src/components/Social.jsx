@@ -3,7 +3,7 @@ import React from 'react';
 const SocialShare = [
     {
         iconName: 'github',
-        link: 'https://github.com/pazbryant',
+        link: 'https://github.com/pazbryant7',
     },
     {
         iconName: 'linkedin',
