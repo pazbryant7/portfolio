@@ -1,5 +1,5 @@
-import React from 'react';
-import Social from './Social';
+import React from "react";
+import Social from "./Social";
 
 const Home = () => {
     return (
@@ -10,8 +10,7 @@ const Home = () => {
                         <div
                             className="image"
                             style={{
-                                backgroundImage:
-                                    'url(assets/img/portfolio/me.jpg)',
+                                backgroundImage: "url(assets/img/portfolio/me.jpg)",
                             }}
                         ></div>
                         {/* END AVATAR IMAGE */}
@@ -20,8 +19,8 @@ const Home = () => {
                     <div className="details">
                         <h3 className="name">Bryant Paz</h3>
                         <p className="job">
-                            Software Engineer | JavaScript | Lua | C | Golang |
-                            Bash and Linux enthusiast.
+                            Software Engineer | JavaScript | Lua | C | Golang | Bash and Linux
+                            enthusiast.
                         </p>
                         {/* END JOB */}
                         <Social />

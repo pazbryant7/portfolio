@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Variety = () => {
     return (
@@ -21,15 +21,11 @@ const Variety = () => {
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                <img
-                                    src="assets/img/thumbs/terminal.png"
-                                    alt="thumb"
-                                />
+                                <img src="assets/img/thumbs/terminal.png" alt="thumb" />
                                 <div
                                     className="main"
                                     style={{
-                                        backgroundImage:
-                                            'url(assets/img/thumbs/terminal.png)',
+                                        backgroundImage: "url(assets/img/thumbs/terminal.png)",
                                     }}
                                 ></div>
                             </a>
@@ -57,15 +53,11 @@ const Variety = () => {
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                <img
-                                    src="assets/img/thumbs/nvim.png"
-                                    alt="thumb"
-                                />
+                                <img src="assets/img/thumbs/nvim.png" alt="thumb" />
                                 <div
                                     className="main"
                                     style={{
-                                        backgroundImage:
-                                            'url(assets/img/thumbs/nvim.png)',
+                                        backgroundImage: "url(assets/img/thumbs/nvim.png)",
                                     }}
                                 ></div>
                             </a>

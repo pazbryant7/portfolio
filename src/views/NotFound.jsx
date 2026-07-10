@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const NotFound = () => {
     return (
@@ -30,10 +30,7 @@ const NotFound = () => {
                                 <div className="tokyo_tm_error_inner">
                                     <h1>404!</h1>
                                     <h3>Page not found</h3>
-                                    <p>
-                                        The page you were looking for could not
-                                        be found.
-                                    </p>
+                                    <p>The page you were looking for could not be found.</p>
                                     <Link to="/" className="ib-button">
                                         Go to Home
                                     </Link>

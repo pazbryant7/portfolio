@@ -1,7 +1,7 @@
-import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default function SimpleSlider() {
     const settings = {
@@ -31,40 +31,22 @@ export default function SimpleSlider() {
         <ul>
             <Slider {...settings}>
                 <li className="item">
-                    <img
-                        src="assets/img/partners/express.png"
-                        alt="partners brand"
-                    />
+                    <img src="assets/img/partners/express.png" alt="partners brand" />
                 </li>
                 <li className="item">
-                    <img
-                        src="assets/img/partners/mongodb.png"
-                        alt="partners brand"
-                    />
+                    <img src="assets/img/partners/mongodb.png" alt="partners brand" />
                 </li>
                 <li className="item">
-                    <img
-                        src="assets/img/partners/mysql.png"
-                        alt="partners brand"
-                    />
+                    <img src="assets/img/partners/mysql.png" alt="partners brand" />
                 </li>
                 <li className="item">
-                    <img
-                        src="assets/img/partners/nodejs.png"
-                        alt="partners brand"
-                    />
+                    <img src="assets/img/partners/nodejs.png" alt="partners brand" />
                 </li>
                 <li className="item">
-                    <img
-                        src="assets/img/partners/react.png"
-                        alt="partners brand"
-                    />
+                    <img src="assets/img/partners/react.png" alt="partners brand" />
                 </li>
                 <li className="item">
-                    <img
-                        src="assets/img/partners/typescript.png"
-                        alt="partners brand"
-                    />
+                    <img src="assets/img/partners/typescript.png" alt="partners brand" />
                 </li>
             </Slider>
         </ul>

@@ -1,10 +1,9 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 export default defineConfig(({ command }) => {
-    const repoName = 'portfolio';
-    const isProductionBuildOrPreview =
-        command === 'build' || command === 'serve';
+    const repoName = "portfolio";
+    const isProductionBuildOrPreview = command === "build" || command === "serve";
 
     return {
         plugins: [react()],
@@ -14,6 +13,6 @@ export default defineConfig(({ command }) => {
         preview: {
             port: 8080,
         },
-        base: isProductionBuildOrPreview ? `/${repoName}/` : '/',
+        base: isProductionBuildOrPreview ? `/${repoName}/` : "/",
     };
 });
