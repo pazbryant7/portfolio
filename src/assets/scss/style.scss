@@ -1,9 +1,9 @@
-@import "typographpy/typography";
+@use 'typographpy/typography';
 
 // Main CSS
-@import "main/dark";
-@import "main/tokyo";
-@import "main/rtl";
+@use 'main/dark';
+@use 'main/tokyo';
+@use 'main/rtl';
 
 // PREVIEW SCSS
-@import "preview/preview";
+@use 'preview/preview';

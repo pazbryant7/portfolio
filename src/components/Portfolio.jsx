@@ -1,6 +1,5 @@
-import React from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import { Tooltip } from "react-tooltip";
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import { Tooltip } from 'react-tooltip';
 
 const Portfolio = () => {
     return (
@@ -42,9 +41,14 @@ const Portfolio = () => {
                                                         data-tooltip-float="true"
                                                     />
                                                 </a>
-                                                <Tooltip id="branding" className="tooltip-wrapper">
+                                                <Tooltip
+                                                    id="branding"
+                                                    className="tooltip-wrapper"
+                                                >
                                                     <div>
-                                                        <h5>Personal branding</h5>
+                                                        <h5>
+                                                            Personal branding
+                                                        </h5>
                                                         <span>Branding</span>
                                                     </div>
                                                 </Tooltip>
@@ -67,7 +71,10 @@ const Portfolio = () => {
                                                         data-tooltip-float="true"
                                                     />
                                                 </a>
-                                                <Tooltip id="resume" className="tooltip-wrapper">
+                                                <Tooltip
+                                                    id="resume"
+                                                    className="tooltip-wrapper"
+                                                >
                                                     <div>
                                                         <h5>My resume</h5>
                                                         <span>Branding</span>
@@ -92,7 +99,10 @@ const Portfolio = () => {
                                                         data-tooltip-float="true"
                                                     />
                                                 </a>
-                                                <Tooltip id="project" className="tooltip-wrapper">
+                                                <Tooltip
+                                                    id="project"
+                                                    className="tooltip-wrapper"
+                                                >
                                                     <div>
                                                         <h5>Freedom</h5>
                                                         <span>Projects</span>
@@ -117,7 +127,10 @@ const Portfolio = () => {
                                                         data-tooltip-float="true"
                                                     />
                                                 </a>
-                                                <Tooltip id="confort" className="tooltip-wrapper">
+                                                <Tooltip
+                                                    id="confort"
+                                                    className="tooltip-wrapper"
+                                                >
                                                     <div>
                                                         <h5>Confort zone</h5>
                                                         <span>Projects</span>
@@ -142,7 +155,10 @@ const Portfolio = () => {
                                                         data-tooltip-float="true"
                                                     />
                                                 </a>
-                                                <Tooltip id="safesteps" className="tooltip-wrapper">
+                                                <Tooltip
+                                                    id="safesteps"
+                                                    className="tooltip-wrapper"
+                                                >
                                                     <div>
                                                         <h5>Safe steps</h5>
                                                         <span>Projects</span>
@@ -200,7 +216,10 @@ const Portfolio = () => {
                                                         data-tooltip-float="true"
                                                     />
                                                 </a>
-                                                <Tooltip id="project" className="tooltip-wrapper">
+                                                <Tooltip
+                                                    id="project"
+                                                    className="tooltip-wrapper"
+                                                >
                                                     <div>
                                                         <h5>Freedom</h5>
                                                         <span>Projects</span>
@@ -225,7 +244,10 @@ const Portfolio = () => {
                                                         data-tooltip-float="true"
                                                     />
                                                 </a>
-                                                <Tooltip id="confort" className="tooltip-wrapper">
+                                                <Tooltip
+                                                    id="confort"
+                                                    className="tooltip-wrapper"
+                                                >
                                                     <div>
                                                         <h5>Confort zone</h5>
                                                         <span>Projects</span>
@@ -250,7 +272,10 @@ const Portfolio = () => {
                                                         data-tooltip-float="true"
                                                     />
                                                 </a>
-                                                <Tooltip id="safesteps" className="tooltip-wrapper">
+                                                <Tooltip
+                                                    id="safesteps"
+                                                    className="tooltip-wrapper"
+                                                >
                                                     <div>
                                                         <h5>Safe steps</h5>
                                                         <span>Projects</span>
@@ -291,7 +316,10 @@ const Portfolio = () => {
                             </TabPanel>
                             {/* branding */}
                             <TabPanel>
-                                <ul className="portfolio_list pswp-gallery" id="my-gallery">
+                                <ul
+                                    className="portfolio_list pswp-gallery"
+                                    id="my-gallery"
+                                >
                                     {/* branding */}
                                     <li>
                                         <div className="inner">
@@ -308,9 +336,14 @@ const Portfolio = () => {
                                                         data-tooltip-float="true"
                                                     />
                                                 </a>
-                                                <Tooltip id="branding" className="tooltip-wrapper">
+                                                <Tooltip
+                                                    id="branding"
+                                                    className="tooltip-wrapper"
+                                                >
                                                     <div>
-                                                        <h5>Personal branding</h5>
+                                                        <h5>
+                                                            Personal branding
+                                                        </h5>
                                                         <span>Branding</span>
                                                     </div>
                                                 </Tooltip>
@@ -333,7 +366,10 @@ const Portfolio = () => {
                                                         data-tooltip-float="true"
                                                     />
                                                 </a>
-                                                <Tooltip id="resume" className="tooltip-wrapper">
+                                                <Tooltip
+                                                    id="resume"
+                                                    className="tooltip-wrapper"
+                                                >
                                                     <div>
                                                         <h5>My resume</h5>
                                                         <span>Branding</span>

@@ -1,32 +1,38 @@
-import React, { useState } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import { FaMoon, FaSun } from "react-icons/fa";
-import { Link } from "react-router-dom";
-import Home from "../components/Home";
-import About from "../components/About";
-import Portfolio from "../components/Portfolio";
-import Variety from "../components/Variety";
+import { useState } from 'react';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import { FaMoon, FaSun } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+import Home from '../components/Home';
+import About from '../components/About';
+import Portfolio from '../components/Portfolio';
+import Variety from '../components/Variety';
 
 const Main = () => {
     const [isDark, setIsDark] = useState(false);
     const handleLabelClick = () => {
         if (isDark) {
-            localStorage.setItem("theme-color", "light");
-            document.querySelector("body").classList.add("light");
-            document.querySelector("body").classList.remove("dark");
+            localStorage.setItem('theme-color', 'light');
+            document.querySelector('body').classList.add('light');
+            document.querySelector('body').classList.remove('dark');
             setIsDark(false);
         } else {
-            localStorage.setItem("theme-color", "dark");
-            document.querySelector("body").classList.add("dark");
-            document.querySelector("body").classList.remove("-light");
+            localStorage.setItem('theme-color', 'dark');
+            document.querySelector('body').classList.add('dark');
+            document.querySelector('body').classList.remove('-light');
             setIsDark(true);
         }
     };
     return (
         <>
             {/* Start Dark & Light Mode Swicher  */}
-            <label className={`theme-switcher-label d-flex  ${isDark ? "active" : ""}`}>
-                <input type="checkbox" onClick={handleLabelClick} className="theme-switcher" />
+            <label
+                className={`theme-switcher-label d-flex  ${isDark ? 'active' : ''}`}
+            >
+                <input
+                    type="checkbox"
+                    onClick={handleLabelClick}
+                    className="theme-switcher"
+                />
                 <div className="switch-handle">
                     <i className="light-text" title="Switch to Dark">
                         <FaMoon />
@@ -44,7 +50,10 @@ const Main = () => {
                         <div className="leftpart_inner">
                             <div className="logo">
                                 <Link className="navbar-brand" to="/">
-                                    <img src="assets/img/logo/dark.png" alt="brand" />
+                                    <img
+                                        src="assets/img/logo/dark.png"
+                                        alt="brand"
+                                    />
                                 </Link>
                             </div>
                             {/* END LOGO */}
@@ -57,7 +66,9 @@ const Main = () => {
                                             src="assets/img/svg/home-run.svg"
                                             alt="homerun"
                                         />
-                                        <span className="menu_content">Home</span>
+                                        <span className="menu_content">
+                                            Home
+                                        </span>
                                     </Tab>
                                     <Tab>
                                         <img
@@ -65,7 +76,9 @@ const Main = () => {
                                             src="assets/img/svg/avatar.svg"
                                             alt="avatar"
                                         />
-                                        <span className="menu_content">About</span>
+                                        <span className="menu_content">
+                                            About
+                                        </span>
                                     </Tab>
                                     <Tab>
                                         <img
@@ -73,7 +86,9 @@ const Main = () => {
                                             src="assets/img/svg/briefcase.svg"
                                             alt="briefcase"
                                         />
-                                        <span className="menu_content">Portfolio</span>
+                                        <span className="menu_content">
+                                            Portfolio
+                                        </span>
                                     </Tab>
                                     <Tab>
                                         <img
@@ -81,7 +96,9 @@ const Main = () => {
                                             src="assets/img/svg/paper.svg"
                                             alt="paper"
                                         />
-                                        <span className="menu_content">Variety</span>
+                                        <span className="menu_content">
+                                            Variety
+                                        </span>
                                     </Tab>
                                 </ul>
                             </div>
@@ -89,7 +106,8 @@ const Main = () => {
 
                             <div className="copyright">
                                 <p>
-                                    &copy; {new Date().getFullYear()} <br /> Bryant Paz
+                                    &copy; {new Date().getFullYear()} <br />{' '}
+                                    Bryant Paz
                                 </p>
                             </div>
                             {/* END COPYRIGHT */}

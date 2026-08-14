@@ -1,15 +1,9 @@
-import React, { useState } from "react";
-import Modal from "react-modal";
-import Brand from "./Brand";
-
-Modal.setAppElement("#root");
+import { useState } from 'react';
+import * as Dialog from '@radix-ui/react-dialog';
+import Brand from './Brand';
 
 const About = () => {
     const [isOpen, setIsOpen] = useState(false);
-
-    function toggleModal() {
-        setIsOpen(!isOpen);
-    }
 
     function getMyCurrentAge() {
         const birthYear = 1998;
@@ -24,7 +18,10 @@ const About = () => {
         const monthDifference = today.getMonth() - birthDate.getMonth();
         const dayDifference = today.getDate() - birthDate.getDate();
 
-        if (monthDifference < 0 || (monthDifference === 0 && dayDifference < 0)) {
+        if (
+            monthDifference < 0 ||
+            (monthDifference === 0 && dayDifference < 0)
+        ) {
             age--;
         }
 
@@ -42,23 +39,33 @@ const About = () => {
                     <div className="description_inner">
                         <div className="left">
                             <p>
-                                Driven by a background in computer science, I build quality software
-                                using C, Lua, Golang, JavaScript, and SH/Bash. I am passionate about
-                                Linux and proficient in harnessing the power of the CLI. Known for
-                                attention to detail and effective problem-solving, I excel at
-                                debugging complex issues. Strong communication and teamwork skills
-                                enable me to contribute effectively to bringing projects from idea
-                                to reality.
+                                Driven by a background in computer science, I
+                                build quality software using C, Lua, Golang,
+                                JavaScript, and SH/Bash. I am passionate about
+                                Linux and proficient in harnessing the power of
+                                the CLI. Known for attention to detail and
+                                effective problem-solving, I excel at debugging
+                                complex issues. Strong communication and
+                                teamwork skills enable me to contribute
+                                effectively to bringing projects from idea to
+                                reality.
                             </p>
                             <div className="tokyo_tm_button">
-                                <button onClick={toggleModal} className="ib-button">
+                                <button
+                                    type="button"
+                                    onClick={() => setIsOpen(true)}
+                                    className="ib-button"
+                                >
                                     Read More
                                 </button>
                                 <button
                                     className="ib-button"
                                     onClick={(e) => {
                                         e.preventDefault();
-                                        window.open("assets/pdf/resume_english.pdf", "_blank");
+                                        window.open(
+                                            'assets/pdf/resume_english.pdf',
+                                            '_blank'
+                                        );
                                     }}
                                     type="button"
                                 >
@@ -92,7 +99,8 @@ const About = () => {
                                 </li>
                                 <li>
                                     <p>
-                                        <span>Study:</span>Universidad Tecnológica Metropolitana
+                                        <span>Study:</span>Universidad
+                                        Tecnológica Metropolitana
                                     </p>
                                 </li>
                                 <li>
@@ -115,226 +123,313 @@ const About = () => {
             </div>
 
             {/* START ABOUT POPUP BOX */}
-            <Modal
-                isOpen={isOpen}
-                onRequestClose={toggleModal}
-                contentLabel="My dialog"
-                className="mymodal"
-                overlayClassName="myoverlay"
-                closeTimeoutMS={500}
-            >
-                <div className="tokyo_tm_modalbox_about">
-                    <button className="close-modal" onClick={toggleModal}>
-                        <img src="assets/img/svg/cancel.svg" alt="close icon" />
-                    </button>
-                    {/* END POPUP CLOSE BUTTON */}
-                    <div className="box-inner">
-                        <div className="my_box">
-                            <div className="left">
-                                <div className="about_title">
-                                    <h3>Software Engineer Skills</h3>
-                                </div>
-                                {/* END ABOUT TITLE */}
+            <Dialog.Root open={isOpen} onOpenChange={setIsOpen}>
+                <Dialog.Portal>
+                    <Dialog.Overlay className="myoverlay" />
+                    <Dialog.Content
+                        className="mymodal"
+                        aria-describedby={undefined}
+                    >
+                        <Dialog.Title className="sr-only">
+                            About Bryant Paz
+                        </Dialog.Title>
+                        <div className="tokyo_tm_modalbox_about">
+                            <Dialog.Close asChild>
+                                <button className="close-modal" type="button">
+                                    <img
+                                        src="assets/img/svg/cancel.svg"
+                                        alt="close icon"
+                                    />
+                                </button>
+                            </Dialog.Close>
+                            {/* END POPUP CLOSE BUTTON */}
+                            <div className="box-inner">
+                                <div className="my_box">
+                                    <div className="left">
+                                        <div className="about_title">
+                                            <h3>Software Engineer Skills</h3>
+                                        </div>
+                                        {/* END ABOUT TITLE */}
 
-                                <div className="tokyo_progress">
-                                    {/* JavaScript */}
-                                    <div className="progress_inner" data-value="80">
-                                        <span>
-                                            <span className="label">JavaScript</span>
-                                        </span>
-                                        <div className="background">
-                                            <div className="bar">
-                                                <div
-                                                    className="bar_in"
-                                                    style={{ width: 80 + "%" }}
-                                                ></div>
+                                        <div className="tokyo_progress">
+                                            {/* JavaScript */}
+                                            <div
+                                                className="progress_inner"
+                                                data-value="80"
+                                            >
+                                                <span>
+                                                    <span className="label">
+                                                        JavaScript
+                                                    </span>
+                                                </span>
+                                                <div className="background">
+                                                    <div className="bar">
+                                                        <div
+                                                            className="bar_in"
+                                                            style={{
+                                                                width: 80 + '%',
+                                                            }}
+                                                        ></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {/* Linux */}
+                                            <div
+                                                className="progress_inner"
+                                                data-value="80"
+                                            >
+                                                <span>
+                                                    <span className="label">
+                                                        Linux
+                                                    </span>
+                                                </span>
+                                                <div className="background">
+                                                    <div className="bar">
+                                                        <div
+                                                            className="bar_in"
+                                                            style={{
+                                                                width: 80 + '%',
+                                                            }}
+                                                        ></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {/* Golang */}
+                                            <div
+                                                className="progress_inner"
+                                                data-value="50"
+                                            >
+                                                <span>
+                                                    <span className="label">
+                                                        Go
+                                                    </span>
+                                                </span>
+                                                <div className="background">
+                                                    <div className="bar">
+                                                        <div
+                                                            className="bar_in"
+                                                            style={{
+                                                                width: 50 + '%',
+                                                            }}
+                                                        ></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {/* Lua */}
+                                            <div
+                                                className="progress_inner"
+                                                data-value="70"
+                                            >
+                                                <span>
+                                                    <span className="label">
+                                                        Lua
+                                                    </span>
+                                                </span>
+                                                <div className="background">
+                                                    <div className="bar">
+                                                        <div
+                                                            className="bar_in"
+                                                            style={{
+                                                                width: 70 + '%',
+                                                            }}
+                                                        ></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {/* C */}
+                                            <div
+                                                className="progress_inner"
+                                                data-value="20"
+                                            >
+                                                <span>
+                                                    <span className="label">
+                                                        C
+                                                    </span>
+                                                </span>
+                                                <div className="background">
+                                                    <div className="bar">
+                                                        <div
+                                                            className="bar_in"
+                                                            style={{
+                                                                width: 20 + '%',
+                                                            }}
+                                                        ></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {/* Bash */}
+                                            <div
+                                                className="progress_inner"
+                                                data-value="70"
+                                            >
+                                                <span>
+                                                    <span className="label">
+                                                        Bash
+                                                    </span>
+                                                </span>
+                                                <div className="background">
+                                                    <div className="bar">
+                                                        <div
+                                                            className="bar_in"
+                                                            style={{
+                                                                width: 70 + '%',
+                                                            }}
+                                                        ></div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
+                                        {/* END PROGRESS */}
                                     </div>
-                                    {/* Linux */}
-                                    <div className="progress_inner" data-value="80">
-                                        <span>
-                                            <span className="label">Linux</span>
-                                        </span>
-                                        <div className="background">
-                                            <div className="bar">
-                                                <div
-                                                    className="bar_in"
-                                                    style={{ width: 80 + "%" }}
-                                                ></div>
+                                    {/* END LEFT */}
+
+                                    <div className="right">
+                                        <div className="about_title">
+                                            <h3>Language Skills</h3>
+                                        </div>
+                                        {/* Spanish */}
+                                        {/* English */}
+                                        <div className="tokyo_progress">
+                                            <div
+                                                className="progress_inner"
+                                                data-value="100"
+                                            >
+                                                <span>
+                                                    <span className="label">
+                                                        Spanish
+                                                    </span>
+                                                    <span className="number">
+                                                        100%
+                                                    </span>
+                                                </span>
+                                                <div className="background">
+                                                    <div className="bar">
+                                                        <div
+                                                            className="bar_in"
+                                                            style={{
+                                                                width:
+                                                                    100 + '%',
+                                                            }}
+                                                        ></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div
+                                                className="progress_inner"
+                                                data-value="75"
+                                            >
+                                                <span>
+                                                    <span className="label">
+                                                        English
+                                                    </span>
+                                                    <span className="number">
+                                                        75%
+                                                    </span>
+                                                </span>
+                                                <div className="background">
+                                                    <div className="bar">
+                                                        <div
+                                                            className="bar_in"
+                                                            style={{
+                                                                width: 75 + '%',
+                                                            }}
+                                                        ></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {/* Japanese */}
+                                            <div
+                                                className="progress_inner"
+                                                data-value="5"
+                                            >
+                                                <span>
+                                                    <span className="label">
+                                                        Japanese (current
+                                                        learning)
+                                                    </span>
+                                                    <span className="number">
+                                                        10%
+                                                    </span>
+                                                </span>
+                                                <div className="background">
+                                                    <div className="bar">
+                                                        <div
+                                                            className="bar_in"
+                                                            style={{
+                                                                width: 10 + '%',
+                                                            }}
+                                                        ></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                className="progress_inner"
+                                                data-value="10"
+                                            >
+                                                <span>
+                                                    <span className="label">
+                                                        Portuguese (future)
+                                                    </span>
+                                                    <span className="number">
+                                                        0%
+                                                    </span>
+                                                </span>
+                                                <div className="background">
+                                                    <div className="bar">
+                                                        <div
+                                                            className="bar_in"
+                                                            style={{
+                                                                width: 0 + '%',
+                                                            }}
+                                                        ></div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
+                                        {/* EDN TOKYO PROGRESS */}
                                     </div>
-                                    {/* Golang */}
-                                    <div className="progress_inner" data-value="50">
-                                        <span>
-                                            <span className="label">Go</span>
-                                        </span>
-                                        <div className="background">
-                                            <div className="bar">
-                                                <div
-                                                    className="bar_in"
-                                                    style={{ width: 50 + "%" }}
-                                                ></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* Lua */}
-                                    <div className="progress_inner" data-value="70">
-                                        <span>
-                                            <span className="label">Lua</span>
-                                        </span>
-                                        <div className="background">
-                                            <div className="bar">
-                                                <div
-                                                    className="bar_in"
-                                                    style={{ width: 70 + "%" }}
-                                                ></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* C */}
-                                    <div className="progress_inner" data-value="20">
-                                        <span>
-                                            <span className="label">C</span>
-                                        </span>
-                                        <div className="background">
-                                            <div className="bar">
-                                                <div
-                                                    className="bar_in"
-                                                    style={{ width: 20 + "%" }}
-                                                ></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* Bash */}
-                                    <div className="progress_inner" data-value="70">
-                                        <span>
-                                            <span className="label">Bash</span>
-                                        </span>
-                                        <div className="background">
-                                            <div className="bar">
-                                                <div
-                                                    className="bar_in"
-                                                    style={{ width: 70 + "%" }}
-                                                ></div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    {/* END RIGHT */}
                                 </div>
-                                {/* END PROGRESS */}
+                                {/* END MYBOX */}
+
+                                <div className="counter">
+                                    <div className="about_title">
+                                        <h3>Curious Facts</h3>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <div className="list_inner">
+                                                <h3>32+</h3>
+                                                <span>Projects Completed</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="list_inner">
+                                                <h3>110+</h3>
+                                                <span>Words per minute</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="list_inner">
+                                                <h3>10000+</h3>
+                                                <span>Linux hours</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    {/* END COUNTER CONTENT */}
+                                </div>
+                                <div className="partners">
+                                    <div className="about_title">
+                                        <h3>Others skills</h3>
+                                    </div>
+                                    <Brand />
+                                </div>
                             </div>
-                            {/* END LEFT */}
-
-                            <div className="right">
-                                <div className="about_title">
-                                    <h3>Language Skills</h3>
-                                </div>
-                                {/* Spanish */}
-                                {/* English */}
-                                <div className="tokyo_progress">
-                                    <div className="progress_inner" data-value="100">
-                                        <span>
-                                            <span className="label">Spanish</span>
-                                            <span className="number">100%</span>
-                                        </span>
-                                        <div className="background">
-                                            <div className="bar">
-                                                <div
-                                                    className="bar_in"
-                                                    style={{ width: 100 + "%" }}
-                                                ></div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="progress_inner" data-value="75">
-                                        <span>
-                                            <span className="label">English</span>
-                                            <span className="number">75%</span>
-                                        </span>
-                                        <div className="background">
-                                            <div className="bar">
-                                                <div
-                                                    className="bar_in"
-                                                    style={{ width: 75 + "%" }}
-                                                ></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* Japanese */}
-                                    <div className="progress_inner" data-value="5">
-                                        <span>
-                                            <span className="label">
-                                                Japanese (current learning)
-                                            </span>
-                                            <span className="number">10%</span>
-                                        </span>
-                                        <div className="background">
-                                            <div className="bar">
-                                                <div
-                                                    className="bar_in"
-                                                    style={{ width: 10 + "%" }}
-                                                ></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="progress_inner" data-value="10">
-                                        <span>
-                                            <span className="label">Portuguese (future)</span>
-                                            <span className="number">0%</span>
-                                        </span>
-                                        <div className="background">
-                                            <div className="bar">
-                                                <div
-                                                    className="bar_in"
-                                                    style={{ width: 0 + "%" }}
-                                                ></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* EDN TOKYO PROGRESS */}
-                            </div>
-                            {/* END RIGHT */}
                         </div>
-                        {/* END MYBOX */}
-
-                        <div className="counter">
-                            <div className="about_title">
-                                <h3>Curious Facts</h3>
-                            </div>
-                            <ul>
-                                <li>
-                                    <div className="list_inner">
-                                        <h3>32+</h3>
-                                        <span>Projects Completed</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="list_inner">
-                                        <h3>110+</h3>
-                                        <span>Words per minute</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="list_inner">
-                                        <h3>10000+</h3>
-                                        <span>Linux hours</span>
-                                    </div>
-                                </li>
-                            </ul>
-                            {/* END COUNTER CONTENT */}
-                        </div>
-                        <div className="partners">
-                            <div className="about_title">
-                                <h3>Others skills</h3>
-                            </div>
-                            <Brand />
-                        </div>
-                    </div>
-                </div>
-            </Modal>
+                    </Dialog.Content>
+                </Dialog.Portal>
+            </Dialog.Root>
             {/* END ABOUT POPUP BOX */}
         </>
     );
