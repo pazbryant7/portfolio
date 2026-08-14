@@ -1,5 +1,5 @@
 {
-  description = "Full-stack dev environment (replaces Mason toolchain)";
+  description = "Portfolio development environment";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
@@ -19,29 +19,11 @@
       in
       {
         devShells.default = pkgs.mkShell {
-          packages = with pkgs; [
-            # ── web dev (js/ts) ─────────────────
-            nodejs-slim
-            typescript
-            nodejs-slim.npm
-            typescript-language-server
-            oxfmt
-            superhtml
-
-            # ── language agnostic ────────────────
-            typos
-          ];
+          packages = [ pkgs.nodejs ];
 
           shellHook = ''
-            corepack enable
-            echo "⚡ Dev environment ready"
             echo "Node.js: $(node --version)"
-
-            if [ -z "$IN_NIX_ZSH" ]; then
-              export IN_NIX_ZSH=1
-              exec zsh
-            fi
-
+            echo "npm: $(npm --version)"
           '';
         };
 
